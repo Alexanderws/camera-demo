@@ -19,7 +19,7 @@ struct ContentView: View {
             Text("Hello, world!")
             
             NavigationLink("Kamera") {
-                Text("Velkommen til kameraet")
+                CameraView()
             }
             
         }

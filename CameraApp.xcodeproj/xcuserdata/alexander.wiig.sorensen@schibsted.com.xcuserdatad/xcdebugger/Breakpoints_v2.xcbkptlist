@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9A8D8B46-7E62-412E-9C15-9B8BC4A1E1FC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08703B3C-1BCC-4317-ABD3-55889BF9E19B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CameraApp/CaptureViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "photoOutput(_:didFinishProcessingPhoto:error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "08703B3C-1BCC-4317-ABD3-55889BF9E19B - cc1177bdbd936108"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CameraApp.CaptureViewController.photoOutput(_: __C.AVCapturePhotoOutput, didFinishProcessingPhoto: __C.AVCapturePhoto, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "CameraApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexander.wiig.sorensen@schibsted.com/Developer/Swift/CameraApp/CameraApp/CaptureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "08703B3C-1BCC-4317-ABD3-55889BF9E19B - cc1177bdbd936108"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CameraApp.CaptureViewController.photoOutput(_: __C.AVCapturePhotoOutput, didFinishProcessingPhoto: __C.AVCapturePhoto, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "CameraApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexander.wiig.sorensen@schibsted.com/Developer/Swift/CameraApp/CameraApp/CaptureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "496">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00813867-AC60-483D-B398-220E43E23614"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CameraApp/CaptureViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "photoOutput(_:didFinishProcessingPhoto:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB95AE53-C40C-4872-8C5E-3749ADD637B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CameraApp/CaptureViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "photoOutput(_:didFinishProcessingPhoto:error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB95AE53-C40C-4872-8C5E-3749ADD637B3 - cc1177bdbd936156"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CameraApp.CaptureViewController.photoOutput(_: __C.AVCapturePhotoOutput, didFinishProcessingPhoto: __C.AVCapturePhoto, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "CameraApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexander.wiig.sorensen@schibsted.com/Developer/Swift/CameraApp/CameraApp/CaptureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+               <Location
+                  uuid = "EB95AE53-C40C-4872-8C5E-3749ADD637B3 - cc1177bdbd936156"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CameraApp.CaptureViewController.photoOutput(_: __C.AVCapturePhotoOutput, didFinishProcessingPhoto: __C.AVCapturePhoto, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "CameraApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexander.wiig.sorensen@schibsted.com/Developer/Swift/CameraApp/CameraApp/CaptureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "1064">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "791628D3-DD61-4D88-A650-928CAA45E89C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CameraApp/CaptureViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "photoOutput(_:didFinishProcessingPhoto:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "880EC3B8-728E-44D2-8F4F-C13E2721764A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CameraApp/CaptureViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "photoOutput(_:didFinishProcessingPhoto:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

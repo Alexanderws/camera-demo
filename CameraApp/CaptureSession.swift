@@ -129,8 +129,8 @@ extension CaptureSession {
 
         let settings = AVCapturePhotoSettings()
         settings.flashMode = flashMode
-
         photoOutput.capturePhoto(with: settings, delegate: delegate)
+        print("session.captureImage")
     }
 
     func startRecording(delegate: AVCaptureFileOutputRecordingDelegate) throws {

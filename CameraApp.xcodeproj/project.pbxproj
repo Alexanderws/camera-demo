@@ -17,6 +17,10 @@
 		E80129262976BA260046E84F /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80129252976BA260046E84F /* UIImage+Extensions.swift */; };
 		E80129282976BA820046E84F /* UIImage+AdInsertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80129272976BA820046E84F /* UIImage+AdInsertion.swift */; };
 		E801292A2976BCBE0046E84F /* AVCaptureDevice+AdInsertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80129292976BCBE0046E84F /* AVCaptureDevice+AdInsertion.swift */; };
+		E801292E297803DF0046E84F /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801292D297803DF0046E84F /* CameraView.swift */; };
+		E8012931297817AF0046E84F /* HostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8012930297817AF0046E84F /* HostingView.swift */; };
+		E80129332978191E0046E84F /* CameraBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80129322978191E0046E84F /* CameraBottomBar.swift */; };
+		E801293529781B080046E84F /* CameraBottomBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801293429781B080046E84F /* CameraBottomBarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		E80129252976BA260046E84F /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		E80129272976BA820046E84F /* UIImage+AdInsertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AdInsertion.swift"; sourceTree = "<group>"; };
 		E80129292976BCBE0046E84F /* AVCaptureDevice+AdInsertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+AdInsertion.swift"; sourceTree = "<group>"; };
+		E801292D297803DF0046E84F /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		E8012930297817AF0046E84F /* HostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingView.swift; sourceTree = "<group>"; };
+		E80129322978191E0046E84F /* CameraBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraBottomBar.swift; sourceTree = "<group>"; };
+		E801293429781B080046E84F /* CameraBottomBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraBottomBarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 		E801290529769FCF0046E84F = {
 			isa = PBXGroup;
 			children = (
+				E80129322978191E0046E84F /* CameraBottomBar.swift */,
 				E801291029769FCF0046E84F /* CameraApp */,
 				E801290F29769FCF0046E84F /* Products */,
 			);
@@ -63,14 +72,17 @@
 		E801291029769FCF0046E84F /* CameraApp */ = {
 			isa = PBXGroup;
 			children = (
+				E801292F2978176F0046E84F /* Helpers */,
 				E801291129769FCF0046E84F /* CameraAppApp.swift */,
 				E801291329769FCF0046E84F /* ContentView.swift */,
+				E801292D297803DF0046E84F /* CameraView.swift */,
 				E801291F2976A9650046E84F /* CameraViewController.swift */,
 				E80129232976AE8C0046E84F /* CaptureSession.swift */,
 				E80129212976AD870046E84F /* CaptureViewController.swift */,
 				E801291529769FD00046E84F /* Assets.xcassets */,
 				E801291729769FD00046E84F /* Preview Content */,
 				E801292B2976BF7D0046E84F /* Extensions */,
+				E801293429781B080046E84F /* CameraBottomBarViewModel.swift */,
 			);
 			path = CameraApp;
 			sourceTree = "<group>";
@@ -91,6 +103,14 @@
 				E80129292976BCBE0046E84F /* AVCaptureDevice+AdInsertion.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E801292F2978176F0046E84F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E8012930297817AF0046E84F /* HostingView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E801293529781B080046E84F /* CameraBottomBarViewModel.swift in Sources */,
 				E801291429769FCF0046E84F /* ContentView.swift in Sources */,
 				E80129282976BA820046E84F /* UIImage+AdInsertion.swift in Sources */,
 				E80129222976AD870046E84F /* CaptureViewController.swift in Sources */,
+				E80129332978191E0046E84F /* CameraBottomBar.swift in Sources */,
+				E8012931297817AF0046E84F /* HostingView.swift in Sources */,
+				E801292E297803DF0046E84F /* CameraView.swift in Sources */,
 				E801291229769FCF0046E84F /* CameraAppApp.swift in Sources */,
 				E80129262976BA260046E84F /* UIImage+Extensions.swift in Sources */,
 				E80129242976AE8C0046E84F /* CaptureSession.swift in Sources */,
@@ -302,11 +326,13 @@
 				DEVELOPMENT_TEAM = CJPUPM74U8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"We want to spy on you (: Blackmail incoming\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,11 +357,13 @@
 				DEVELOPMENT_TEAM = CJPUPM74U8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"We want to spy on you (: Blackmail incoming\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
