@@ -21,6 +21,8 @@
 		E8012931297817AF0046E84F /* HostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8012930297817AF0046E84F /* HostingView.swift */; };
 		E80129332978191E0046E84F /* CameraBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80129322978191E0046E84F /* CameraBottomBar.swift */; };
 		E801293529781B080046E84F /* CameraBottomBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801293429781B080046E84F /* CameraBottomBarViewModel.swift */; };
+		E801293729814B890046E84F /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801293629814B890046E84F /* ImageCarouselView.swift */; };
+		E801293929815A7E0046E84F /* ImageCarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801293829815A7E0046E84F /* ImageCarouselViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		E8012930297817AF0046E84F /* HostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingView.swift; sourceTree = "<group>"; };
 		E80129322978191E0046E84F /* CameraBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraBottomBar.swift; sourceTree = "<group>"; };
 		E801293429781B080046E84F /* CameraBottomBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraBottomBarViewModel.swift; sourceTree = "<group>"; };
+		E801293629814B890046E84F /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
+		E801293829815A7E0046E84F /* ImageCarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				E801292D297803DF0046E84F /* CameraView.swift */,
 				E801291F2976A9650046E84F /* CameraViewController.swift */,
 				E80129232976AE8C0046E84F /* CaptureSession.swift */,
+				E801293629814B890046E84F /* ImageCarouselView.swift */,
+				E801293829815A7E0046E84F /* ImageCarouselViewModel.swift */,
 				E80129212976AD870046E84F /* CaptureViewController.swift */,
 				E801291529769FD00046E84F /* Assets.xcassets */,
 				E801291729769FD00046E84F /* Preview Content */,
@@ -183,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E801293929815A7E0046E84F /* ImageCarouselViewModel.swift in Sources */,
 				E801293529781B080046E84F /* CameraBottomBarViewModel.swift in Sources */,
 				E801291429769FCF0046E84F /* ContentView.swift in Sources */,
 				E80129282976BA820046E84F /* UIImage+AdInsertion.swift in Sources */,
@@ -194,6 +201,7 @@
 				E80129262976BA260046E84F /* UIImage+Extensions.swift in Sources */,
 				E80129242976AE8C0046E84F /* CaptureSession.swift in Sources */,
 				E801292A2976BCBE0046E84F /* AVCaptureDevice+AdInsertion.swift in Sources */,
+				E801293729814B890046E84F /* ImageCarouselView.swift in Sources */,
 				E80129202976A9650046E84F /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
