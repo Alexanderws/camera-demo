@@ -22,6 +22,7 @@ struct CameraBottomBar: View {
 
     var body: some View {
         HStack {
+            photoLibraryButton
             Spacer()
             captureButton
             Spacer()
@@ -29,6 +30,17 @@ struct CameraBottomBar: View {
         }
         .background(Color.black)
         .frame(height: 100)
+    }
+
+    private var photoLibraryButton: some View {
+        Button(action: {
+            fatalError("not implemented")
+        }) {
+            Image(systemName: "photo.on.rectangle.angled")
+                .font(.title)
+                .foregroundColor(.white)
+                .padding(25)
+        }
     }
 
     private var captureButton: some View {
@@ -79,10 +91,9 @@ private struct RotateButton: View {
     var body: some View {
         Button(action: action) {
             Image(systemName: "camera.rotate")
-//            Image(symbol: .cameraRotate)
-//                .font(.title1, weight: .medium)
-//                .foregroundColor(.white)
-//                .padding(.paddingM)
+                .font(.title)
+                .foregroundColor(.white)
+                .padding(25)
         }
     }
 }
