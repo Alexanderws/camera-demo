@@ -22,14 +22,14 @@ extension AVCaptureDevice.FlashMode {
     }
 
     // Might not be right return type
-    var symbol: Image {
+    var symbol: UIImage? {
         switch self {
         case .on:
-            return Image(systemName: "boltFill")
+            return UIImage(systemName: "bolt.fill")
         case .auto:
-            return Image(systemName: "boltBadgeAFill")
+            return UIImage(systemName: "bolt.badge.a.fill")
         case .off:
-            return Image(systemName: "boltSlashFill")
+            return UIImage(systemName: "bolt.slash.fill")
         @unknown default:
             return AVCaptureDevice.FlashMode.on.symbol
         }

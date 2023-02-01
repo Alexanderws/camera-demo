@@ -331,7 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CameraApp/Preview Content\"";
-				DEVELOPMENT_TEAM = CJPUPM74U8;
+				DEVELOPMENT_TEAM = 228DC29L7W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "\"We want to spy on you (: Blackmail incoming\"";
