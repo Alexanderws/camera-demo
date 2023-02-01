@@ -48,6 +48,8 @@ final class CameraViewController: UIViewController  {
         switch action {
         case .capture:
             captureViewController.captureImage()
+        case .rotate:
+            captureViewController.toggleCameraPosition()
         }
     }
 
@@ -99,8 +101,8 @@ final class CameraViewController: UIViewController  {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-
         let navigationController = parent?.navigationController ?? self.navigationController
+        navigationController?.additionalSafeAreaInsets.top = 25
 
         // currentNavigationItem.leftBarButtonItem = cancelButton
         currentNavigationItem.titleView = flashModeButton

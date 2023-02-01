@@ -13,6 +13,7 @@ struct CameraBottomBar: View {
 
     enum Action {
         case capture
+        case rotate
     }
 
     @StateObject var viewModel: CameraBottomBarViewModel
@@ -24,6 +25,7 @@ struct CameraBottomBar: View {
             Spacer()
             captureButton
             Spacer()
+            rotateButton
         }
         .background(Color.black)
         .frame(height: 100)
@@ -36,6 +38,10 @@ struct CameraBottomBar: View {
                 UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                 viewModel.trigger(.capture)
             })
+    }
+
+    private var rotateButton: some View {
+        RotateButton(action: { viewModel.trigger(.rotate) })
     }
 }
 
@@ -64,3 +70,20 @@ private struct CaptureButton: View {
         }.frame(height: 100)
     }
 }
+
+private struct RotateButton: View {
+    let action: () -> Void
+
+    // MARK: - Views
+
+    var body: some View {
+        Button(action: action) {
+            Image(systemName: "camera.rotate")
+//            Image(symbol: .cameraRotate)
+//                .font(.title1, weight: .medium)
+//                .foregroundColor(.white)
+//                .padding(.paddingM)
+        }
+    }
+}
+
